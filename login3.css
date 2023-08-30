@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.span{
+    background-color: rgb(143, 1, 1);
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 5px 10px;
+}
+form{
+    margin: 80px auto;
+    width: 450px;
+    
+    padding: 30px 20px;
+   
+}
+form h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color:  rgb(143, 1, 1);
+}
+.input label{
+    font-size: 20px;
+    display: block;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.input{
+    padding: 8px;
+}
+.input input{
+    width: 100%;
+    font-size: 17px;
+    padding: 2px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.input input:hover{
+    background-color:rgb(215, 97, 97);
+}
+.btm{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    padding: 3px 15px;
+    background-color:  rgb(143, 1, 1);
+    color: white;
+}
+.error{
+    color: red;
+    padding: 3px 2px;
+}
+.successval input{
+    border-color: rgb(51, 231, 51);
+}
+.errorval input{
+    border-color: rgb(255, 20, 20);
+}
